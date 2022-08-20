@@ -1,0 +1,95 @@
+<!DOCTYPE html>	
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>Formulario</title>
+			<meta name="author" content="Gustavo Deberdt e Rafael do Carmo">
+			<link rel="stylesheet" type="text/css" href="estiloformulario.css">
+			<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	
+		</head>
+
+		<body class="tamanho">
+			<header>
+				<div id="titulo">
+					<h1>Formulario De Opinião</h1>
+				</div>
+				<div id="barra">
+					<p>
+						<div><a href="index.html"><button id="botao"><i class="material-icons">home</i></button></a></div>
+						<div class="espaco"><a class="link" href="vacinacao.html">Vacinação</a></div>
+						<div class="espaco"><a class="link" href="noticias.html">Notícias e Fakenews</a></div>
+						<div class="espaco"><a class="link" href="locais_vacinacao.html">Locais para Vacinação</a></div>
+						<div class="espaco"><a class="link" href="duvidas_frequentes.html">Dúvidas Frequentes</a></div>
+						<div class="espaco"><a class="link" href="video.html">Vídeo Explicativo</a></div>
+					</p>
+			</header>
+			<div><center>
+				<h2 id="titulo2">Formulário de Opinião</h2>
+			</div></center>
+
+<center><table cellspacing="10">
+            <form name="formulario">
+		        <tr>
+		        	<th><input  type="text" class="quadradinhos" name="nome" placeholder="Nome" id="nome"> </th>
+		            <th> <input type="text" class="quadradinhos" name="sobrenome" placeholder="Sobrenome" id="sobrenome"> </th>
+		        </tr>
+            	<tr>
+              		<th><input type="number" class="quadradinhos"  name="idade" placeholder="Idade" id="idade"></th>
+                	<th><input type="email" class="quadradinhos" name="email" placeholder="Email" id="email"></th>
+                </tr>
+                
+                <tr>
+                <th colspan="2" class="bordinha"><p> Sexo: <input type="radio"  name="sex" value="masc">Masculino<input type="radio" name="sex" value="fem">Feminino</p></th>
+                </tr>  
+                <tr>
+	                <th class="bordinha"><p>Marque o que concorda:</p>
+			            <input type="checkbox"  name="info" value="info">O site tem informações uteis<br>
+			            <input type="checkbox"  name="intuitivo" value="intuitivo">O site é bem intuitivo <br>
+			            <input type="checkbox"  name=" estilizado " value="estilizado">O site é bem estilizado<br>
+			            <input type="checkbox"  name="gostei" value="gostei">Eu gostei do site<br>
+			        	</th>
+	                <th class="bordinha"><p>Qual foi sua pagina favorita?</p>
+		                <select name="favorito" id="pg_favorita">
+		            	<option value="Home">Home</option>
+		                <option value="Vacinação">Vacinação</option>
+		                <option value="fake">Notícias e fakenews</option>
+		                <option value="locais">Locais para Vacinação</option>
+		                <option value="Duvidas">Dúvidas Frequentes</option>
+	            	</select>
+	            	</th>
+                </tr>
+                <tr>
+                    <th colspan="2" class="bordinha2"><textarea rows="12" cols="80">Escreva o que você acha que pode melhorar ou o que mais gostou!</textarea></th> 
+                </tr>
+                <tr>
+                	<th colspan="2">
+						<div>
+						<button type="submit" class='btt' onclick="validar()">Enviar</button>
+						</div>	
+					</th>
+                </tr>
+          </form>      
+        </table></center>
+	<footer>
+			<div class="rodape">
+				<b>Contatos:</b>
+				<br>
+				32219512@mackenzista.com.br
+				<br>
+				32230249@mackenzista.com.br
+			</div>
+			<div id="gov" class="rodape"><center>
+				<p>Para saber mais acesse:<br> 
+				    <a href="https://www.saopaulo.sp.gov.br">https://www.saopaulo.sp.gov.br</a>
+				</p>
+			</center></div>
+			<div>
+				<img id="mack" src="Imagens/mackenzielogo.png">
+			</div>
+			</footer>
+		</body>
+	</html>
+
+    

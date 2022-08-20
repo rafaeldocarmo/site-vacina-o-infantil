@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Handlee&display=swap');
+
+
+body.tamanho{
+	box-sizing: border-box;
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0;
+}
+
+div#titulo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	box-sizing: border-box;
+	min-width: 100%;
+	height: 200px;
+	background-color: royalblue;
+	color: white;
+	text-align: center;
+	font-size: 200%;
+	font-family: Handlee;
+}
+
+div#barra{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	box-sizing: border-box;
+	width: 100%;
+	height: 50px;
+	background-color: cornflowerblue;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+div.espaco{
+	float: center;
+  margin-right: 35px;
+}
+
+div.espaco:hover{
+	transform: translateY(-2px);
+  cursor: pointer;
+}
+
+#botao{
+	float: center;
+  margin-right: 25px;
+  background-color: cornflowerblue;
+  border: 0;
+  color: white;
+}
+
+#botao:hover{
+	transform: translateY(-2px);
+  cursor: pointer;
+}
+
+a.link{
+	text-decoration: none;
+	color: white;
+}
+
+div.video{
+	display: flex;
+	justify-content: center;
+	float: center;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+div#titulodovideo{
+	display: flex;
+	justify-content: center;
+	margin: 25px;
+	font-size: 85%;
+	color: white;
+	font-family: cabin;	
+	background-color: cornflowerblue;
+	width: 58%;
+	border-radius: 5px;
+	letter-spacing: 3px;
+}
+
+div#barraazul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	border: 20px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 400px;
+	background-color: royalblue;
+}
+
+a.polaroid {
+  width: 23%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-bottom: -50px;
+  margin-top: -20px;
+}
+
+a.polaroid:hover{
+	transform: translateY(-5px);
+  cursor: pointer;
+}
+
+a.polaroid2 {
+  width: 23%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+a.polaroid2:hover{
+	transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.imagem{
+	width: 90%;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 15px;
+}
+
+.container {
+  text-align: center;
+  padding: 10px 20px;
+  font-family: Cabin;
+  color: royalblue;
+  margin-top: 0px;
+}
+
+#rodape{
+	float: left;
+	margin: 20px;
+	font-family: video;
+	line-height: 20px;
+}
+#mack{
+	float: right;
+	width: 75px;
+	margin: 20px;
+	margin-right: 40px;
+}
+#gov{
+	float: left;
+	margin: 20px;
+	font-family: video;
+	line-height: 20px;
+	margin-left: 320px;
+}

@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Handlee&display=swap');
+
+body.tamanho{
+	box-sizing: border-box;
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0;
+}
+
+div#titulo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	box-sizing: border-box;
+	width: 100%;
+	height: 200px;
+	background-color: royalblue;
+	color: white;
+	text-align: center;
+	font-size: 200%;
+	font-family: Handlee;
+}
+
+div#barra{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	box-sizing: border-box;
+	width: 100%;
+	height: 50px;
+	background-color: cornflowerblue;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+div.espaco{
+	float: center;
+  margin-right: 35px;
+}
+
+div.espaco:hover{
+	transform: translateY(-2px);
+  cursor: pointer;
+}
+
+#botao{
+	float: center;
+  margin-right: 25px;
+  background-color: cornflowerblue;
+  border: 0;
+  color: white;
+}
+
+#botao:hover{
+	transform: translateY(-2px);
+  cursor: pointer;
+}
+
+a.link{
+	text-decoration: none;
+	color: white;
+}
+
+
+.coluna1{
+	float: left;
+    margin-left: 500px;
+    margin-top: 40px;
+    font-size: 120%;
+}
+.coluna2{
+    float: right;
+   margin-right: 500px;
+    margin-top: 40px;
+font-size: 120%;
+}
+
+.camposform{
+	margin-bottom: 50px;
+	color: purple;
+
+}
+
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+input[type=email]:focus {
+  background-color: lightblue;
+}
+input[type=number]:focus {
+  background-color: lightblue;
+}
+.botao{
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: cornflowerblue;
+  }
+
+
+#titulo2{
+	font-family: handlee;
+	font-size: 150%;
+	margin: 20px;
+	color: royalblue;
+	margin-bottom: 0px;
+}
+
+
+.quadradinhos{
+  border: 2px solid lavender;
+  color: white;
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background-color: lavender;
+}
+
+::placeholder{
+	color: royalblue;
+	font-family: Cabin;
+	font-weight: normal;
+	font-size: 100%;
+}
+
+.bordinha{
+  border: 2px solid lightsteelblue;
+  border-radius: 7px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: lightsteelblue;
+  color: royalblue;
+  font-family: Cabin;
+  font-weight: normal;
+  text-align: center;
+  font-size: 100%;
+  margin: 10px;
+}
+
+.bordinha2{
+	border: 2px solid steelblue;
+  border-radius: 7px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: steelblue;
+  color: royalblue;
+  font-family: Cabin;
+  font-weight: normal;
+  text-align: center;
+  font-size: 100%;
+  margin: 10px;
+}
+
+
+table{
+	margin-top: 10px;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+
+.btt{ 
+  background-color: royalblue;
+  border: 2px;
+  border-radius: 5px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btt:focus {
+  background-color: purple;
+    
+}
+
+select{
+  height: 120%;
+  color: royalblue;
+  background-color: lightsteelblue;
+  position: relative;
+  font-family: Cabin;
+  font-size: 110%;
+}
+
+textarea{
+	border-radius: 7px;
+}
+
+footer{
+	display: block;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 0;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100px;
+	background-color: royalblue;
+	color: white;
+}
+
+.rodape{
+	float: left;
+	margin: 20px;
+	font-family: video;
+	line-height: 20px;
+	margin-bottom: 0;
+}
+#mack{
+	float: right;
+	width: 75px;
+	margin: 10px;
+	margin-right: 40px;
+	margin-bottom: 0;
+
+}
+#gov{
+	margin-left: 320px;
+	text-align: center;
+}
+
+#link_rodape{
+	color: white;
+}
